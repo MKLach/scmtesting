@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>org.springframework.boot</groupId>
+		<artifactId>spring-boot-starter-parent</artifactId>
+		<version>2.7.1</version>
+		<relativePath /> <!-- lookup parent from repository -->
+	</parent>
+	<groupId>com.mklachl.swb</groupId>
+	<artifactId>spring-pet-clinic-ver</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<name>spring-pet-clinic-ver</name>
+	<description>Funny Bussinens</description>
+	<properties>
+		<java.version>16</java.version>
+	</properties>
+
+
+	<build>
+		<plugins>
+			
+		</plugins>
+	</build>
+	
+	<scm>
+		<developerConnection>scm:git:git@github.com:MKLach/scmtesting.git</developerConnection>
+	  <tag>spring-pet-clinic-ver-0.0,1</tag>
+  </scm>
+
+	<packaging>pom</packaging>
+	<modules>
+		<module>spring-pet-clinic-ver-web</module>
+		<module>spring-pet-clinic-ver-data</module>
+	</modules>
+</project>
